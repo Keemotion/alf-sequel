@@ -6,8 +6,8 @@ gem "rspec", "~> 2.14"
 group :runtime do
   gem "sequel", ">= 4.2"
 
-  gem "alf-core"#, path: "../alf-core"
-  gem "alf-sql"#,  path: "../alf-sql"
+  gem "alf-core", git: "https://github.com/Keemotion/alf-core.git"
+  gem "alf-sql", git: "https://github.com/Keemotion/alf-sql.git"
 end
 
 group :test do
