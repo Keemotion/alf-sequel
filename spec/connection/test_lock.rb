@@ -7,7 +7,7 @@ module Alf
 
       it 'yields the block' do
         subject
-        @seen.should be_true
+        @seen.should be_truthy
       end
 
     end

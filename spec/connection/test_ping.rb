@@ -4,15 +4,15 @@ module Alf
     describe Connection, "ping" do
 
       it "returns true on a file" do
-        Connection.new("#{sequel_database_path}").ping.should be_true
+        Connection.new("#{sequel_database_path}").ping.should be_truthy
       end
 
       it "returns true on an uri" do
-        Connection.new(sequel_database_uri).ping.should be_true
+        Connection.new(sequel_database_uri).ping.should be_truthy
       end
 
       it "returns true on a Path" do
-        Connection.new(sequel_database_path).ping.should be_true
+        Connection.new(sequel_database_path).ping.should be_truthy
       end
 
       it "raises on non existing" do
