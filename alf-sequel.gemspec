@@ -19,8 +19,6 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency("rake", "~> 10.1")
   s.add_development_dependency("rspec", "~> 2.14")
-  s.add_dependency("sequel", "~> 5.14")
+  s.add_dependency("sequel", "~> 5.19")
   s.add_dependency("alf-core", "~> 0.17")
-  #s.add_dependency("alf-sql", git: "https://github.com/Keemotion/alf-sql.git")
-
 end
